@@ -7,5 +7,5 @@ Online Pizza Ordering Website
 * Bootstrap
 
 ## License:
->GNU General Public License 
+>GNU General Public License v3.0
 
