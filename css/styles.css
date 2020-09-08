@@ -14,7 +14,7 @@ body {
 /*Landing Page*/
 
 .landing {
-    background-image: url("/Pizza/Images/image0.jpg");
+    background-image: url("/images/image0.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -175,7 +175,7 @@ h4 {
 /*Contact*/
 
 .contact {
-    background-image: url("/Pizza/Images/image4.jpg");
+    background-image: url("images/image4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
