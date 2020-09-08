@@ -1,0 +1,202 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: rgb(26, 25, 25);
+}
+
+
+/*Landing Page*/
+
+.landing {
+    background-image: url("/Pizza/Images/image0.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+#push {
+    padding-top: 10%;
+}
+
+.landing-text {
+    margin-top: 10%;
+}
+
+.landing-text h1,
+h2 {
+    font-family: Verdana, Geneva, Tahoma;
+}
+
+.landing-text h1 {
+    font-family: Verdana, Geneva, Tahoma;
+    font-size: 60px;
+}
+
+.pizza-head {
+    color: goldenrod;
+}
+
+a {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+/*End Landing Page*/
+
+
+/*Menu*/
+
+table {
+    border: 1px solid gold;
+}
+
+th,
+tr,
+td {
+    padding: 10px;
+}
+
+.button-link {
+    background-color: gold;
+    color: black;
+}
+
+#pizza-menu {
+    padding-top: 20px;
+}
+
+.menu-image {
+    margin-top: 0;
+    margin-left: 80px;
+    margin-bottom: 130px;
+    height: 400px;
+    width: 400px;
+}
+
+.pizza-menu {
+    padding-top: 30px;
+}
+
+
+/*End Menu*/
+
+
+/*Order*/
+
+#order-pizza {
+    padding: 20px 50px 20px 50px;
+    font-family: Verdana, Geneva, Tahoma;
+    color: #000;
+}
+
+.order-overlay {
+    height: inherit;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+}
+
+label {
+    color: gold;
+}
+
+.cdata {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.order-summary h1,
+.summary {
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma;
+    margin-top: 50px;
+}
+
+.go {
+    border-radius: 20px;
+}
+
+.click-me,
+button[type=submit],
+.deliver,
+.delivernot {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #ffbf00;
+    outline: none;
+    padding: .7%;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
+
+.deliver,
+.delivernot {
+    margin: 10px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma;
+    letter-spacing: 1px;
+}
+
+.checkout {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#list {
+    color: #000;
+}
+
+
+/*End Order*/
+
+
+/*Contact*/
+
+.contact {
+    background-image: url("/Pizza/Images/image4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    margin-top: 30px;
+}
+
+.contact-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: inherit;
+}
+
+
+/*End Contact*/
+
+img {
+    height: 260px;
+    width: 260px;
+}
+
+.txt {
+    font-family: Verdana, Geneva, Tahoma;
+    color: black;
+    font-size: 23px;
+}
