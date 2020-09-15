@@ -17,7 +17,7 @@ $(function() {
 
         let price, totalPrice;
         switch (size) {
-            case size = "regular":
+            case size = "small":
                 price = 800;
                 if (crust === "crispy") {
                     totalPrice = (price * number) + 100;
